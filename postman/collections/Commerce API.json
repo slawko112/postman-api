@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "83bed8fb-3196-4f11-af35-8e0ebfbdff5c",
+		"name": "Commerce API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12782367-83bed8fb-3196-4f11-af35-8e0ebfbdff5c"
+	},
+	"item": [
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "Get product",
+					"id": "28a44d07-2042-4b00-bcd1-e11dd209a74a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/product",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"product"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "6cd7f918-ba77-4240-8279-e106a0d83d06"
+		}
+	],
+	"variable": [
+		{
+			"id": "2bd03f18-f91f-489d-b28e-ec4c0e3d2100",
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
