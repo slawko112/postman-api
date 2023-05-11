@@ -1,0 +1,15 @@
+openapi: 3.0.3
+info:
+  title: Commerce API
+  version: '1.0'
+tags:
+  - name: Category
+  - name: Product
+paths:
+  /product:
+      get:
+      tags:
+        - Product
+      responses:
+        200:
+          description: Returns categories structure containing nested subcategories
